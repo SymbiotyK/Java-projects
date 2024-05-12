@@ -1,13 +1,12 @@
-.tekst{
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body{
+    background: rgb(238, 221, 198);
 }
 
-.but1{
-    padding: 10px;
-    scale: 3;
-    margin-left: 100px;
-    margin-top: 30px;
+.tekst{
+    margin: auto;
+    padding: 0%;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @keyframes rainbow {
@@ -21,5 +20,40 @@
     100% { color: red; }
 }
     #countDisplay {
-        animation: rainbow 1s linear infinite;
+        animation: rainbow 10s linear infinite;
+}
+
+.top-header{
+    max-width: 1920px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-header ul{
+    margin: auto;
+    padding: 0%;
+    width: 600px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.top-header ul button{
+    width: -moz-available;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0%;
+    background-color:teal;
+    border-color: blueviolet;
+    border-spacing: 300px;
+}
+
+.main-content-container{
+    background-color: rgb(105, 105, 105);
+    height: 400px;
+    max-width: 1800px;
+    margin: auto;
+    padding: 0%;
 }
