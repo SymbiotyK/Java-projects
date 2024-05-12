@@ -1,0 +1,25 @@
+.tekst{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.but1{
+    padding: 10px;
+    scale: 3;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+}
+    #countDisplay {
+        animation: rainbow 1s linear infinite;
+}
